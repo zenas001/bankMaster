@@ -1,0 +1,9 @@
+project(':server') {
+
+    apply plugin: 'spring-boot'
+
+    dependencies {
+        compile project(':ui')
+        compile 'org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE'
+    }
+}

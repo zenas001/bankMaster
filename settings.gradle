@@ -1,0 +1,4 @@
+rootProject.name = 'springboot-vue-webpack-examples'
+include 'server'
+include 'ui'
+
