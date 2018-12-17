@@ -1,4 +1,4 @@
-rootProject.name = 'springboot-vue-webpack-examples'
+rootProject.name = 'bank-master'
 include 'server'
 include 'ui'
 

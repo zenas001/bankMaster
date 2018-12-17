@@ -14,8 +14,8 @@ buildscript {
 
 allprojects {
 
-    group 'com.weghst.springboot-vue-webpack-examples'
-    version '1.0-SNAPSHOT'
+    group 'com.zenas.bank-master'
+    version '1.0.1'
 
     apply plugin: 'java'
     apply plugin: 'idea'

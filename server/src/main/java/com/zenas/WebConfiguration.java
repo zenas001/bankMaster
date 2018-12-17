@@ -1,4 +1,4 @@
-package com.weghst.sbvwe;
+package com.zenas;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;

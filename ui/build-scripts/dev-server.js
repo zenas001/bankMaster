@@ -38,6 +38,9 @@ Object.keys(proxyTable).forEach(function (context) {
   var options = proxyTable[context]
   if (typeof options === 'string') {
     options = { target: options }
+    //add debug
+    options.logLevel='debug'
+    console.log("request server target >>>>"+JSON.stringify(options))
   }
   app.use(proxyMiddleware(context, options))
 })
